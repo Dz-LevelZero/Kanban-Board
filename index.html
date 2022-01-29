@@ -24,24 +24,20 @@
         </span>
         <!-- Backlog Content -->
         <div id="backlog-content" class="custom-scroll">
-          <ul class="drag-item-list" id="backlog-list">
-            <li class="drag-item">Testing</li>
-            <li class="drag-item">Testing</li>
-            <li class="drag-item">Testing</li>
-          </ul>
+          <ul class="drag-item-list" id="backlog-list" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(0)"></ul>
         </div>
         <!-- Add Button Group -->
         <div class="add-btn-group">
-          <div class="add-btn">
+          <div class="add-btn" onclick="showInputBox(0)">
             <span class="plus-sign">+</span>
             <span>Add Item</span>
           </div>
-          <div class="add-btn solid">
+          <div class="add-btn solid" onclick="hideInputBox(0)">
             <span>Save Item</span>
           </div>
-          <div class="add-container">
-            <div class="add-item"></div>
-          </div>
+        </div>
+        <div class="add-container">
+          <div class="add-item" contenteditable="true"></div>
         </div>
       </li>
       <!-- Progress Column -->
@@ -51,24 +47,20 @@
         </span>
         <!-- Progress Content -->
         <div id="progress-content" class="custom-scroll">
-          <ul class="drag-item-list" id="progress-list">
-            <li class="drag-item">Testing</li>
-            <li class="drag-item">Testing</li>
-            <li class="drag-item">Testing</li>
-          </ul>
+          <ul class="drag-item-list" id="progress-list" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(1)"></ul>
         </div>
         <!-- Add Button Group -->
         <div class="add-btn-group">
-          <div class="add-btn">
+          <div class="add-btn" onclick="showInputBox(1)">
             <span class="plus-sign">+</span>
             <span>Add Item</span>
           </div>
-          <div class="add-btn solid">
+          <div class="add-btn solid" onclick="hideInputBox(1)">
             <span>Save Item</span>
           </div>
-          <div class="add-container">
-            <div class="add-item"></div>
-          </div>
+        </div>
+        <div class="add-container">
+          <div class="add-item" contenteditable="true"></div>
         </div>
       </li>
       <!-- Complete Column -->
@@ -78,24 +70,20 @@
         </span>
         <!-- Complete Content -->
         <div id="complete-content" class="custom-scroll">
-          <ul class="drag-item-list" id="complete-list">
-            <li class="drag-item">Testing</li>
-            <li class="drag-item">Testing</li>
-            <li class="drag-item">Testing</li>
-          </ul>
+          <ul class="drag-item-list" id="complete-list" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(2)"></ul>
         </div>
         <!-- Add Button Group -->
         <div class="add-btn-group">
-          <div class="add-btn">
+          <div class="add-btn" onclick="showInputBox(2)">
             <span class="plus-sign">+</span>
             <span>Add Item</span>
           </div>
-          <div class="add-btn solid">
+          <div class="add-btn solid" onclick="hideInputBox(2)">
             <span>Save Item</span>
           </div>
-          <div class="add-container">
-            <div class="add-item"></div>
-          </div>
+        </div>
+        <div class="add-container">
+          <div class="add-item" contenteditable="true"></div>
         </div>
       </li>
       <!-- On-Hold Column -->
@@ -105,25 +93,20 @@
         </span>
         <!-- On-Hold Content -->
         <div id="on-hold-content" class="custom-scroll">
-          <ul class="drag-item-list" id="on-hold-list">
-            <li class="drag-item">Testing</li>
-            <li class="drag-item">Testing</li>
-            <li class="drag-item">Testing</li>
-            <li class="drag-item">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus, alias? Odio, illum consequuntur sunt cupiditate minima quam excepturi sit delectus perferendis quibusdam autem voluptates porro incidunt pariatur magnam expedita odit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet consectetur error nostrum eligendi et at praesentium, eos nam impedit ducimus beatae eius cupiditate aperiam dolorum molestias eum mollitia, magni ea? Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, vitae ab architecto odit blanditiis harum fuga est, quisquam consequatur voluptate dolor! Vitae iste molestias unde soluta doloribus commodi consectetur modi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis veniam ducimus cupiditate dolorum sed consectetur rem repellendus tempore error, quos eveniet praesentium non placeat dolore animi officiis totam aliquid quasi.</li>
-          </ul>
+          <ul class="drag-item-list" id="on-hold-list" ondrop="drop(event)" ondragover="allowDrop(event)" ondragenter="dragEnter(3)"></ul>
         </div>
         <!-- Add Button Group -->
         <div class="add-btn-group">
-          <div class="add-btn">
+          <div class="add-btn" onclick="showInputBox(3)">
             <span class="plus-sign">+</span>
             <span>Add Item</span>
           </div>
-          <div class="add-btn solid">
+          <div class="add-btn solid" onclick="hideInputBox(3)">
             <span>Save Item</span>
           </div>
-          <div class="add-container">
-            <div class="add-item"></div>
-          </div>
+        </div>
+        <div class="add-container">
+          <div class="add-item" contenteditable="true"></div>
         </div>
       </li>
     </ul>
